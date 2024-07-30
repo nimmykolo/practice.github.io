@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFC1CC; /* Pastel Pink */
+    color: #800020; /* Complementary color (Burgundy) */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #800020; /* Complementary color (Burgundy) */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #FFDAB9; /* Peach */
+}
+
+#about {
+    background-color: #FFB6C1; /* Light Pink */
+}
+
+#projects {
+    background-color: #FFB07C; /* Lighter Peach */
+}
+
+#contact {
+    background-color: #FFC1CC; /* Pastel Pink */
+}
+
+footer {
+    background-color: #FFC1CC; /* Pastel Pink */
+    color: #800020; /* Complementary color (Burgundy) */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #FFC1CC; /* Pastel Pink */
+    color: #800020; /* Complementary color (Burgundy) */
+    border: none;
+    cursor: pointer;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-details {
+    display: none;
+    margin-top: 10px;
+    background-color: #FFE4E1; /* Lighter Pink */
+    padding: 10px;
+}
+
